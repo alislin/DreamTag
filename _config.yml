@@ -9,12 +9,12 @@ description: 技术收集和心得
 keywords: 技术 dream 
 author: Alis Lin
 language: zh-CN
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://alislin.github.io
+root: /DreamTag/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -37,7 +37,7 @@ external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
-relative_link: false
+relative_link: true
 future: true
 highlight:
   enable: true
@@ -57,6 +57,8 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  .Net
+  随笔
 tag_map:
 
 # Date / Time format
@@ -79,5 +81,7 @@ theme: pure
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+deploy: 
+  type: git
+  repo: https://github.com/alislin/DreamTag.git
+

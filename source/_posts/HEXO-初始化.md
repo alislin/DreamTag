@@ -2,6 +2,7 @@
 title: Hexo 初始化
 date: 2019-02-19 15:40:45
 tags: Hexo
+categories: Hexo
 ---
 对比了若干静态生成网站的工具，Jekyll、Octopress、Hexo 等 。最后选择了Hexo作为基础工具。选择理由如下：
 1. nodejs安装
@@ -21,9 +22,11 @@ $hexo init 网站名称
 ```
 $hexo new "文章标题"
 ```
-生成
+生成、发布、生成+发布
 ```
 $hexo g
+$hexo d
+$hexo g -d
 ```
 网站查看
 ```
