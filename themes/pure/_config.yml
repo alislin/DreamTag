@@ -188,7 +188,7 @@ profile:
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: 废除
   author_title: 产品 / 全栈
-  author_description: 个人简介。
+  author_description: 聚焦教育行业相关项目，从管理到课程，有驾照的老司机。
   location: Chengdu, China
   follow: https://github.com/alislin
   # Social Links
