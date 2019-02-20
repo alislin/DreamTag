@@ -172,7 +172,7 @@
   <div class="widget">
     <h3 class="widget-title">分类</h3>
     <div class="widget-body">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="categories/Hexo/">Hexo</a><span class="category-list-count">1</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="categories/Hexo/">Hexo</a><span class="category-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -182,7 +182,7 @@
   <div class="widget">
     <h3 class="widget-title">标签</h3>
     <div class="widget-body">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="tags/Hexo/">Hexo</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="tags/Hexo/">Hexo</a><span class="tag-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -201,7 +201,7 @@
   <div class="widget">
     <h3 class="widget-title">归档</h3>
     <div class="widget-body">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="archives/2019/02/">二月 2019</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="archives/2019/02/">二月 2019</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -213,6 +213,21 @@
     <div class="widget-body">
       <ul class="recent-post-list list-unstyled no-thumbnail">
         
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="categories/Hexo/">Hexo</a>
+              </p>
+              <p class="item-title">
+                <a href="2019/02/20/Hexo评论插件/" class="title">Hexo 评论插件</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2019-02-20T07:49:30.000Z" itemprop="datePublished">2019-02-20</time>
+              </p>
+            </div>
+          </li>
+          
           <li>
             
             <div class="item-inner">
@@ -240,102 +255,83 @@
   
   <main class="main" role="main">
   
-  
-    <div class="content">
-  <article id="post-HEXO-初始化" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="content article-list">
     
-    <div class="article-header">
-      
-        
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
+    
   
     <h1 itemprop="name">
-      <a class="article-title" href="2019/02/19/HEXO-初始化/">Hexo 初始化</a>
+      <a class="article-title" href="2019/02/20/Hexo评论插件/">Hexo 评论插件</a>
     </h1>
   
 
-      
-      <div class="article-meta">
-        <span class="article-date">
+  </div>
+  
+  <p class="article-meta">
+    <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="2019/02/19/HEXO-初始化/" class="article-date">
-	  <time datetime="2019-02-19T07:40:45.000Z" itemprop="datePublished">2019-02-19</time>
+	<a href="2019/02/20/Hexo评论插件/" class="article-date">
+	  <time datetime="2019-02-20T07:49:30.000Z" itemprop="datePublished">2月 20</time>
 	</a>
 </span>
-        
+    
   <span class="article-category">
     <i class="icon icon-folder"></i>
     <a class="article-category-link" href="categories/Hexo/">Hexo</a>
   </span>
 
-        
+    
   <span class="article-tag">
     <i class="icon icon-tags"></i>
 	<a class="article-tag-link" href="tags/Hexo/">Hexo</a>
   </span>
 
 
-        
-
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="2019/02/19/HEXO-初始化/#comments" class="article-comment-link">评论</a></span>
-        
-      </div>
-    </div>
-    <div class="article-entry marked-body" itemprop="articleBody">
-      
-        <p>对比了若干静态生成网站的工具，Jekyll、Octopress、Hexo 等 。最后选择了Hexo作为基础工具。选择理由如下：</p>
-<ol>
-<li>nodejs安装</li>
-<li>markdown支持</li>
-<li>鉴于简单和复杂之间，可以单纯使用markdown作为文档编写。但也可以使用插件折腾。中文帮助也比较完善。</li>
-</ol>
-<p>使用非常简单，总共用以下几条指令：<br>安装Hexo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
-<p>创建网站<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$hexo init 网站名称</span><br></pre></td></tr></table></figure></p>
-<p>创建文章<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$hexo new &quot;文章标题&quot;</span><br></pre></td></tr></table></figure></p>
-<p>生成、发布、生成+发布<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$hexo g</span><br><span class="line">$hexo d</span><br><span class="line">$hexo g -d</span><br></pre></td></tr></table></figure></p>
-<p>网站查看<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$hexo s</span><br></pre></td></tr></table></figure></p>
-<p>当然配置和插件就接下来后续折腾了。</p>
-
-      
-    </div>
-    <div class="article-footer">
-      <blockquote class="mt-2x">
-  <ul class="post-copyright list-unstyled">
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="2019/02/20/Hexo评论插件/#comments" class="article-comment-link">评论</a></span>
     
-    <li class="post-copyright-link hidden-xs">
-      <strong>本文链接：</strong>
-      <a href="https://alislin.github.io/2019/02/19/HEXO-初始化/" title="Hexo 初始化" target="_blank" rel="external">https://alislin.github.io/2019/02/19/HEXO-初始化/</a>
-    </li>
+  </p>
+</article>
+
     
-    <li class="post-copyright-license">
-      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
-    </li>
-  </ul>
-</blockquote>
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
+    
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="2019/02/19/HEXO-初始化/">Hexo 初始化</a>
+    </h1>
+  
 
-
-<div class="panel panel-default panel-badger">
-  <div class="panel-body">
-    <figure class="media">
-      <div class="media-left">
-        <a href="https://github.com/alislin" target="_blank" class="img-burn thumb-sm visible-lg">
-          <img src="images/avatar.jpg" class="img-rounded w-full" alt>
-        </a>
-      </div>
-      <div class="media-body">
-        <h3 class="media-heading"><a href="https://github.com/alislin" target="_blank"><span class="text-dark">废除</span><small class="ml-1x">产品 / 全栈</small></a></h3>
-        <div>喜欢新事物，追随最前沿的技术，聚焦教育行业相关项目，从管理到课程。喜欢 coding 和 gaming。</div>
-      </div>
-    </figure>
   </div>
-</div>
-
-
-    </div>
-  </article>
   
-</div>
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="2019/02/19/HEXO-初始化/" class="article-date">
+	  <time datetime="2019-02-19T07:40:45.000Z" itemprop="datePublished">2月 19</time>
+	</a>
+</span>
+    
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="categories/Hexo/">Hexo</a>
+  </span>
 
-  
+    
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="tags/Hexo/">Hexo</a>
+  </span>
+
+
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="2019/02/19/HEXO-初始化/#comments" class="article-comment-link">评论</a></span>
+    
+  </p>
+</article>
+
+    
+  </div>
 
    
 </main>
