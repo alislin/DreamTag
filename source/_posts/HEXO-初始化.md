@@ -22,14 +22,18 @@ $hexo init 网站名称
 ```
 $hexo new "文章标题"
 ```
-生成、发布、生成+发布
+生成，生成静态网站到 `public` 文件夹中。
 ```
 $hexo g
-$hexo d
-$hexo g -d
 ```
 网站查看
 ```
 $hexo s
+```
+如果需要在 github 上快捷发布，还可以安装一个插件，之后就可以使用发布命令了。
+```
+$npm install hexo-deployer-git --save
+$hexo d
+$hexo g -d
 ```
 当然配置和插件就接下来后续折腾了。

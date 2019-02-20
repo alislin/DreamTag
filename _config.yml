@@ -42,7 +42,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -57,8 +57,8 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  .Net
-  随笔
+  - .Net
+  - 随笔
 tag_map:
 
 # Date / Time format
